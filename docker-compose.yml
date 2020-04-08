@@ -1,0 +1,9 @@
+version: "3"
+services:
+        instant-client:
+                image: oracle/instantclient:19.6
+                build:
+                        context: .
+                container_name: instant-client-19-6
+                stdin_open: true
+                tty: true
